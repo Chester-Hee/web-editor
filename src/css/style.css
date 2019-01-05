@@ -1,0 +1,40 @@
+.web-editor-item {
+    position: relative;
+}
+
+.web-editor-item .editor-handler {
+    width: 100%;
+    height: 24px;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: right;
+}
+
+.web-editor-item .editor-handler a:hover{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.web-editor-item .editor-handler {
+    display: none;
+}
+
+.web-editor-item:hover .editor-handler {
+    color: #FFF;
+    background: rgba(235, 74, 68, 0.85);
+    display: block;
+}
+
+.web-editor-item .editor-handler a {
+    color: #FFF;
+    margin-right: 8px;
+}
+
+/*.web-editor-item.unusable {*/
+/*filter: alpha(opacity=50);*/
+/*-moz-opacity: 0.5;*/
+/*opacity: 0.5;*/
+/*}*/
