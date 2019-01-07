@@ -7,7 +7,7 @@
             <a class="J-we-edit-item" href="javascript:void(0);" @click="dialogFormVisible = true"><i class="fa fa-pencil-square-o"></i> 编辑</a>
         </div>
 
-        <el-dialog title="" :visible.sync="dialogFormVisible">
+        <el-dialog :title="title" :visible.sync="dialogFormVisible">
             <el-form :model="form">
                 <el-form-item label="内容修改" >
                     <el-input autocomplete="off" v-model="form.content"></el-input>
